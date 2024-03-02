@@ -4,16 +4,30 @@
 
     width: 100rem;
     display: flex;
-    position: absolute;
+    /* position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 0; */
     height: 47rem;
     
     background-image: url('../../assets/homeBg.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    
 
+}
+
+.logo{
+    border-radius: 50%;
+    height: 10%;
+    width: 27%;
+}
+
+.navbar{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-evenly;
 }
