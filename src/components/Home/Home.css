@@ -1,0 +1,17 @@
+
+
+.backDrop{
+
+    width: 100rem;
+    height: 47rem;
+    
+    background-image: url('../../assets/homeBg.jpg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
