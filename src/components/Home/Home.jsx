@@ -35,7 +35,7 @@ const Home = () => {
         
           <div className="link-tab navbar-links flex flex-col md:flex-row md:items-end md:justify-between w-full md:w-full ">
             <Link to="/" className="navbar-link ">Home</Link>
-            <Link to="/"  className="navbar-link">About Us</Link>
+            <Link to="/about"  className="navbar-link">About Us</Link>
             <Link to="/"  className="navbar-link">Services</Link>
             <Link to="/"  className="navbar-link">Gallery</Link>
             <Link to="/"  className="navbar-link">Contact Us</Link>

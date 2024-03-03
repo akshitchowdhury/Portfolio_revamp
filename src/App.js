@@ -1,5 +1,6 @@
 
 import './App.css';
+import AboutUs from './components/AboutUs/AboutUs';
 import Home from './components/Home/Home';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -13,8 +14,10 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route path="/gallery" element={<Gallery/>} />
         <Route path="/about" element={<AboutUs/>} />
+
+        {/* <Route path="/gallery" element={<Gallery/>} />
+        
         <Route path="/contact" element={<Conatct/>} /> */}
         {/* 
         <Route path="/services" element={<Services/>} />
