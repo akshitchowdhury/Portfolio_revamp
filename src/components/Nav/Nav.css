@@ -1,0 +1,17 @@
+.navbar-link:hover{
+    transform: scale(1.6); /* Enlarge the link on hover */
+    color: rgb(20, 109, 192);
+}
+
+.navbar-link{
+    transition: transform 0.3s ease;}
+
+.logo img:hover{
+
+    transform: rotate(360deg);
+
+    }
+
+    .logo img{
+        transition: transform .7s ease-in-out;
+    }

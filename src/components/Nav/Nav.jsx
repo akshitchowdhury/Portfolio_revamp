@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import mainLogo from '../../assets/1.png'
-
+import './Nav.css'
 const Nav = () => {
   return (
     <div className='navBlock w-full'>
