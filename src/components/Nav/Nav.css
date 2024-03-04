@@ -3,9 +3,18 @@
     color: rgb(247, 182, 6);
 }
 
-.navbar-link{
-    transition: transform 0.3s ease;}
 
+.navbar-link{
+    transition: transform 0.3s ease;
+    color: aliceblue;
+    padding: 5%;
+}
+
+.navbar{
+    background-color: rgb(17, 17, 17);
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
 .logo img:hover{
 
     transform: rotate(360deg);

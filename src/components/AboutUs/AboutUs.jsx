@@ -1,11 +1,12 @@
 import React from 'react'
-
+import './AboutUs.css'
 const AboutUs = () => {
   return (
     <>
     <div className='about'>
     <div className='flex flex-wrap justify-center'>
-        <h3>About me</h3>
+        
+        <h1>About me</h1>
     </div>
     </div>
     </>
