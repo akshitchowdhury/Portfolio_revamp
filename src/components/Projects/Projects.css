@@ -1,0 +1,14 @@
+.Projects{
+
+    width: 100rem;
+    display: flex;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; */
+    height: 47rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+background-image: url('../../assets/bg2.jpg');
+}

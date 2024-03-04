@@ -1,6 +1,6 @@
 .navbar-link:hover{
     transform: scale(1.6); /* Enlarge the link on hover */
-    color: rgb(20, 109, 192);
+    color: rgb(247, 182, 6);
 }
 
 .navbar-link{
@@ -14,4 +14,8 @@
 
     .logo img{
         transition: transform .7s ease-in-out;
+    }
+
+    .navBlock{
+    
     }

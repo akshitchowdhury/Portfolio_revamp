@@ -2,6 +2,8 @@ import React from 'react'
 
 import './Home.css'
 
+
+
 const Home = () => {
  
  
@@ -14,7 +16,7 @@ const Home = () => {
 
      <div className='backDrop'>
 
-   
+        
     </div> 
 
     </>
