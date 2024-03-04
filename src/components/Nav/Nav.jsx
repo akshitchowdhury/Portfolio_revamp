@@ -22,11 +22,11 @@ Success
       <div className="container mr-4 px-4 py-4 flex justify-between items-end">
       
         <div className="link-tab navbar-links flex flex-col md:flex-row md:items-end md:justify-between w-full md:w-full ">
-          <Link to="/" className="navbar-link ">Home</Link>
-          <Link to="/about"  className="navbar-link">About Us</Link>
+          <Link to="/" className="navbar-link  ">HOME</Link>
+          <Link to="/about"  className="navbar-link">ABOUT ME</Link>
           
-          <Link to="/projects"  className="navbar-link">Projects</Link>
-          <Link to="/"  className="navbar-link">Contact Me</Link>
+          <Link to="/projects"  className="navbar-link">PROJECTS</Link>
+          <Link to="/"  className="navbar-link">CONTACT</Link>
           
         </div>
       </div>
