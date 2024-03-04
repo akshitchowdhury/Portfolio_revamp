@@ -13,12 +13,12 @@
 //           </div>
 //           <div className="container mr-4 px-4 py-4 flex justify-between items-end">
       
-//       <div className="link-tab navbar-links flex flex-col md:flex-col md:items-end md:justify-between w-full md:w-full ">
-//         <Link to="/" className="navbar-link ">Home</Link>
-//         <Link to="/about"  className="navbar-link">About Us</Link>
+//       <div className="link-tab navbar-linkss flex flex-col md:flex-col md:items-end md:justify-between w-full md:w-full ">
+//         <Link to="/" className="navbar-links ">Home</Link>
+//         <Link to="/about"  className="navbar-links">About Us</Link>
         
-//         <Link to="/projects"  className="navbar-link">Projects</Link>
-//         <Link to="/"  className="navbar-link">Contact Me</Link>
+//         <Link to="/projects"  className="navbar-links">Projects</Link>
+//         <Link to="/"  className="navbar-links">Contact Me</Link>
         
 //       </div>
 //     </div>
@@ -47,26 +47,30 @@
 
 
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import './Footer.css'
 const Footer = () => {
   return (
     <footer className="bg-black dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Company</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Quick Links</h2>
+            <ul className="Qlinks text-gray-500 dark:text-gray-400 font-medium">
+
+       
               <li className="mb-4">
-                <a href="#" className="hover:underline">About</a>
+                
+            <Link to="/" className="navbar-links ">Home</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Careers</a>
+              <Link to="/about"  className="navbar-links">About Us</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Brand Center</a>
+              <Link to="/projects"  className="navbar-links">Projects</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Blog</a>
+              <Link to="/"  className="navbar-links">Contact Me</Link>
               </li>
             </ul>
           </div>
