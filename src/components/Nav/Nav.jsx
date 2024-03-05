@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import mainLogo from '../../assets/1.png'
 import './Nav.css'
+import DropdownMenu from './DropdownMenu'
 const Nav = () => {
   return (
     <div className='navBlock w-full'>
@@ -25,8 +26,9 @@ Success
           <Link to="/" className="navbar-link  ">HOME</Link>
           <Link to="/about"  className="navbar-link">ABOUT ME</Link>
           
-          <Link to="/projects"  className="navbar-link">PROJECTS</Link>
+          <Link to="/projects"  className="navbar-link"><DropdownMenu/></Link>
           <Link to="/"  className="navbar-link">CONTACT</Link>
+          
           
         </div>
       </div>
