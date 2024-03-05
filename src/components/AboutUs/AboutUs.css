@@ -10,3 +10,52 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.para{
+    margin-top: 5%;
+    margin-left: 50%;
+    /* border: 3pt solid blue; */
+}
+
+
+.blocks h1{
+    margin-top: 10%;
+    font-size: x-large;
+  }
+
+@media only screen and (max-width: 600px) {
+    .para {
+      margin-top: 20%;
+        margin-left: 0; /* Remove the margin */
+      width: 100%; /* Ensure content covers the entire width */
+      text-align: justify;
+    }
+  }
+  
+@media only screen and (max-width: 771px) {
+    .para {
+      margin-top: 10%;
+        margin-left: 0; /* Remove the margin */
+      width: 100%; /* Ensure content covers the entire width */
+      text-align: center;
+      font-size: small;
+    }
+
+    .blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .blocks h1{
+
+        
+        font-size: small;
+    }
+  }
+  
+  /* .blocks{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+  } */
