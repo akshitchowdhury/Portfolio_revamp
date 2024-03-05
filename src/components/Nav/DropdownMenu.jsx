@@ -8,15 +8,15 @@ const DropdownMenu = () => {
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="drop relative inline-block text-left" >
       <button
         id="dropdownDividerButton"
         data-dropdown-toggle="dropdownDivider"
-        className="text-white  hover:bg-amber-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className="text-white  hover:text-amber-400   font-bold rounded-lg text-sm  sm:px-0 py-0 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         type="button"
         onClick={toggleDropdown}
       >
-        Projects
+        PROJECTS
         <svg
           className={`w-2.5 h-2.5 ms-3 transition-transform ${
             isOpen ? 'rotate-180' : ''
@@ -42,7 +42,7 @@ const DropdownMenu = () => {
           id="dropdownDivider"
           className="z-10 absolute right-0 mt-2 w-44 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
         >
-          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDividerButton">
+          {/* <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDividerButton">
             <li>
               <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                 Dashboard
@@ -58,10 +58,25 @@ const DropdownMenu = () => {
                 Earnings
               </a>
             </li>
-          </ul>
+          </ul> */}
           <div className="py-2">
             <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-              Separated link
+              Project1
+            </a>
+          </div>
+          <div className="py-2">
+            <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+              Project2
+            </a>
+          </div>
+          <div className="py-2">
+            <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+              Project3
+            </a>
+          </div>
+          <div className="py-2">
+            <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+              Project4
             </a>
           </div>
         </div>
