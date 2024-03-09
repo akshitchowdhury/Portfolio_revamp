@@ -1,9 +1,13 @@
 import React from 'react'
 import './AboutUs.css'
+import Nav from '../Nav/Nav'
+
 const AboutUs = () => {
   return (
     <>
+
     <div className='about'>
+    {/* <Nav/> */}
     <div >
   <div className='blocks flex flex-row w-full md:w-16 lg:w-96 xl:w-2/5'>
     <h1 className='text-lg text-white font-bold text-center md:text-center'>About me</h1>
