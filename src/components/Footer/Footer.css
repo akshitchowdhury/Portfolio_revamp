@@ -8,7 +8,7 @@
   
   .navbar-links{
 
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .navbar-links:hover{
 
@@ -36,8 +36,9 @@
 }
 
 .footer{
-  background-image: url('../../assets/footerBg.jpg');
+  /* background-image: url('../../assets/footerBg.jpg'); */
   background-size: cover;
   background-position: center;
   opacity: 0.9;
+  background-color: #191414;
 }
