@@ -8,11 +8,11 @@
   
   .navbar-links{
 
-    color: rgb(255, 255, 255);
+    color: #1DB954
   }
   .navbar-links:hover{
 
-    color: rgb(247, 182, 6);
+    color: white
   }
   .Qlinks li::after {
     content: '';
@@ -26,11 +26,11 @@
   }
   
   .Qlinks li:hover {
-    color: gold; /* Color of the link when hovered */
+    color: white /* Color of the link when hovered */
   }
   
   .Qlinks li:hover::after {
-    background-color: gold; /* Color of the underline when hovered */
+    background-color:#1DB954; /* Color of the underline when hovered */
     width: 30%; /* Width of the underline when hovered */
     
 }
