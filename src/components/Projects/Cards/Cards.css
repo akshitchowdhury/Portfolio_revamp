@@ -3,11 +3,31 @@
 .card{
     height: 60vh;
     margin-top: 3%;
-    
+    padding: 15px;
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+    box-shadow: 5px 10px #c2f3e8;
 }
 
+
+.card:hover{
+    
+  transform: scale(1.27);
+  /* background-color: rgb(230, 8, 238); */
+  background-image: linear-gradient(rgb(236, 188, 31), rgb(85, 83, 83));
+  
+}
 .card img{
 
     height: 60%;
 
 }
+
+.cardButton{
+    transition: transform 0.6s ease, background-color 0.9s ease; 
+}
+
+.cardButton:hover{
+    
+    transform: scale(1.27);
+    background-color: rgb(26, 11, 1);
+  }
