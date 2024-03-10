@@ -1,14 +1,7 @@
-/* .Projects{
+.Projects{
 
-    width: 100rem;
-    
-    
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-background-image: url('../../assets/bg2.jpg');
-} */
+  background-color: #191414;
+}
 
 .card-stack {
     display: flex;

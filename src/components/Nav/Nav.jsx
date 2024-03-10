@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/1.png';
-
+import './Nav.css'
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
@@ -42,7 +42,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative">
+    <nav className="Navbar  border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-8 rounded-lg" alt="Flowbite Logo" />
@@ -62,7 +62,7 @@ function Navbar() {
           </svg>
         </button>
         <div className={isDropdownOpen ? "absolute top-full left-0 w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-multi-level" style={{ top: dropdownPosition.top, left: dropdownPosition.left }}>
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="List flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md: dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link to="/" onClick={resetDropdownPosition} className="navbar-link block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent">Home</Link>
             </li>

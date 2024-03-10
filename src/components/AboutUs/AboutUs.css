@@ -3,13 +3,17 @@
         width: 100rem;
         height: 30rem;
         max-width: 100%;
-
-    background-image: url('../../assets/aboutBG.jfif');
+/* 
+    background-image: url('../../assets/aboutBG.jfif'); */
 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+
+
+    background-color: #191414;
+
+  }
 
 .para{
     margin-top: 5%;

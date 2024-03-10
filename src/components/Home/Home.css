@@ -9,8 +9,10 @@
     right: 0;
     top: 0; */
     height: 47rem;
-    
-    background-image: url('../../assets/homeBg3.jpg');
+/*     
+    background-image: url('../../assets/homeBg3.jpg'); */
+
+    background-color: #191414;
 
     background-repeat: no-repeat;
     background-size: cover;
