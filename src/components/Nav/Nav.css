@@ -6,3 +6,11 @@
 .List{
     background-color: #1DB954;
 }
+
+.nabar-link{
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.nabar-link:hover{
+    transform: scale(1.1);
+}
