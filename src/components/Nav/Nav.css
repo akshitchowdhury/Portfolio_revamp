@@ -7,6 +7,10 @@
     background-color: #1DB954;
 }
 
+
+#navbar-multi-level{
+    background-color: #1DB954;
+}
 .nabar-link{
     transition: filter 0.3s, transform 0.3s;
 }
