@@ -35,7 +35,7 @@
 }
 
 .profile{
-    padding: 5%;
+    padding: 15%;
 
     display: flex;
     align-items: center;
@@ -46,17 +46,16 @@
     height: 500px;
     width: 500px;
     border-radius: 20%;
-    /* border: 3pt solid blue; */
+    border: 3pt solid blue;
     float: left;
+    margin-left: 10%;
 }
 
 .profile p{
-    /* border: 3pt solid red; */
+    border: 3pt solid red;
     float: left;
     font-size: larger;
     
-    word-wrap: break-word;
-    overflow: hidden;
 }
 
 
