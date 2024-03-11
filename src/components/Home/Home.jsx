@@ -16,7 +16,7 @@ const Home = () => {
 
      <div className='backDrop'>
 
-      <span className='intro1 text-white'>  {`${"<Welcome>"}`} </span>
+      <span className='intro1 '>  {`${"<Welcome>"}`} </span>
        <div className= 'profile'>
 
        <p className='text-white max-w-md '>
@@ -28,7 +28,7 @@ const Home = () => {
 
        </div>
         
-       <span className='intro2 text-white'>  {`${"</Welcome>"}`} </span>
+       <span className='intro2 '>  {`${"</Welcome>"}`} </span>
     </div> 
       
     </>
