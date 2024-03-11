@@ -33,3 +33,30 @@
 
     justify-content: space-evenly;
 }
+
+.profile{
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile img{
+
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+    /* border: 3pt solid blue; */
+    float: left;
+}
+
+.profile p{
+    /* border: 3pt solid red; */
+    float: left;
+    font-size: larger;
+    
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
