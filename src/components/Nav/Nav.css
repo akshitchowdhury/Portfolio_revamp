@@ -1,20 +1,36 @@
 .Navbar{
 
-    background-color: #1DB954;
+    margin-top: 5px;
+    background-color: inherit;
+/* 
+    background-image: linear-gradient(to left, #18ee5f, #191414 );    */
+
+
+    box-shadow: 0 5px 15px rgba(231, 153, 6, 0.61); /* Add a shadow */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  /* transform: perspective(100px) rotateX(2deg);  */
+  /* overflow: hidden; */
+
+  height: 80px;
 }
 
 .List{
-    background-color: #1DB954;
+    background-color: inherit;
 }
 
 
 #navbar-multi-level{
-    background-color: #1DB954;
+    background-color: inherit;
 }
-.nabar-link{
+.navbar-link{
+    color: white;
     transition: filter 0.3s, transform 0.3s;
+    
 }
 
-.nabar-link:hover{
+.navbar-link:hover{
     transform: scale(1.1);
 }
+
+
+

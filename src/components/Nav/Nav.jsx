@@ -64,14 +64,21 @@ function Navbar() {
         <div className={isDropdownOpen ? "absolute top-full left-0 w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-multi-level" style={{ top: dropdownPosition.top, left: dropdownPosition.left }}>
           <ul className="List flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100   md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:border-gray-700">
             <li >
-            <Link to="/" onClick={resetDropdownPosition} className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">Home</Link>
+            <Link to="/" onClick={resetDropdownPosition} style={{color: 'white'}}
+            className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">Home</Link>
 
             </li>
             <li>
-              <Link to="/about" onClick={resetDropdownPosition} className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">About Me</Link>
+              <Link to="/about" onClick={resetDropdownPosition} style={{color: 'white'}}
+               className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">About Me</Link>
             </li>
             <li>
-              <Link to="/projects" onClick={resetDropdownPosition} className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">Projects</Link>
+              <Link to="/projects" onClick={resetDropdownPosition}
+              style={{color: 'white'}}
+               className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 
+               md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white 
+               md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
+               transform transition duration-300 ease-in-out hover:scale-125">Projects</Link>
             </li>
             {!isMobile && (
               <li>
@@ -110,7 +117,8 @@ function Navbar() {
               </li>
             )}
             <li>
-              <Link to="/contact" onClick={resetDropdownPosition} className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">Contact</Link>
+              <Link to="/contact" onClick={resetDropdownPosition} style={{color: 'white'}}
+               className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125">Contact</Link>
             </li>
           </ul>
         </div>

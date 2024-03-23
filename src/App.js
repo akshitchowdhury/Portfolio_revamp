@@ -12,11 +12,11 @@ import ContactComponent from './components/Contact/ContactComponent';
 
 function App() {
   return (
-    <div className="App overflow-x-hidden">
+    <div className="App overflow-x-hidden" >
 
    
     <Router>
-    <Nav/>        
+      
       
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -36,6 +36,7 @@ function App() {
         */}
 
       </Routes>
+      <Nav/>       
       <Footer/>
       </Router>
     </div>

@@ -45,10 +45,10 @@ const ContactComponent = forwardRef((props,ref) => {
   <div ref={ref} className='connect-container'>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Ping me up</h2>
 
-    <div className="flex flex-col lg:flex-row sm:flex-col">
+    <div className="contactStuff flex flex-col lg:flex-row sm:flex-col" >
     <div className="form w-full md:w-1/2 lg:w-1/2 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl">
-  <h2 className="contactUs text-2xl font-bold mb-4">Contact Us</h2>
-  <form className="space-y-4" onSubmit={handleSubmit}>
+     <h2 className="contactUs text-2xl font-bold mb-4">Contact Us</h2>
+   <form className="submitForm space-y-4" onSubmit={handleSubmit}>
     <div>
       <label htmlFor="name" className="block font-semibold mb-1">Name</label>
       <input type="text" ref={nameRef} id="name" name="name" className="enter-name w-full px-4 py-2 border rounded-md" placeholder="Enter your name" />
@@ -63,7 +63,7 @@ const ContactComponent = forwardRef((props,ref) => {
     </div>
     <div>
       <label htmlFor="message" className="block font-semibold mb-1">Message</label>
-      <textarea id="message" ref={messageRef} name="message" rows="4" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Enter your message"></textarea>
+      <textarea id="message" ref={messageRef} name="message" rows="1" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Enter your message"></textarea>
     </div>
     <button type="submit" className="formButton text-white px-6 py-2 rounded-md ">Submit</button>
   </form>
@@ -71,7 +71,7 @@ const ContactComponent = forwardRef((props,ref) => {
 
       
 
-     <MapLeaflet className="map-box"/>
+     <MapLeaflet className="map-box" />
     
 
     </div>
