@@ -1,9 +1,10 @@
-.App{
+.semiMain{
   background-color: #191414;
   /* border: 3pt solid gold; */
 
   padding-top: 5%;
 
   padding-left: 12%;
-  padding-right: 12%;
+  padding-right: 12%; 
 }
+

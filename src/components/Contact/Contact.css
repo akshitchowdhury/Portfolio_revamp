@@ -3,8 +3,14 @@
     width: auto;
     
     /* margin-bottom: -5%; */
-    padding: 10%;
+    
+    padding: 7%;
+    
+    
     height: 30rem;
+    border-radius: 4%;
+    margin-bottom: 3px;
+    box-shadow: 3px  5px 15px #18ee5f;
 
 
 /* 
@@ -39,19 +45,21 @@
 
 
 .form{
-    box-shadow: 3px 3px 5px 5px rgb(112, 111, 111);
-    /* border: 3pt solid blue; */
+    box-shadow: 3px 2px 2px  rgb(31, 30, 30);
+    
     height: 450px;
     margin-bottom: 600px;
     margin-top: -4%;
+    margin-left: 3%;
     background-color: #1DB954;
+
 
 }
 
 
 .submitForm{
 
-    margin-top: -4%;
+    margin-top: -5%;
     
 }
 
@@ -61,13 +69,12 @@ input{
 textarea{
     background-color: #191414;
 }
-.map-box{
+.map{
     
     border: 3pt solid #18ee5f;
 
     height: 400px;
 
-    margin-bottom: 500px;
 
     /* margin-bottom: 23%; */
     

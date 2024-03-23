@@ -14,12 +14,16 @@ function App() {
   return (
     <div className="App overflow-x-hidden" >
 
+<Router>
+    <div className="semiMain">
+
+    
    
-    <Router>
+    
       
       
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/"  element={<Home/>} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/services" element={<Services/>} />
@@ -38,7 +42,9 @@ function App() {
       </Routes>
       <Nav/>       
       <Footer/>
-      </Router>
+      
+      </div>
+</Router>
     </div>
   );
 }
