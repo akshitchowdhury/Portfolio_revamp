@@ -12,14 +12,14 @@ import i6 from '../../assets/i6.jpg'
 const Projects = () => {
   const cardData = [{ title: 'Project 1', description: 'Fabrication project', image: i1 },
   { title: 'Project 2', description: 'Bintalhind Project', image: i2 },
-  { title: 'Project 3', description: 'Alwyn Packers and Movers Project', image: i3 },
+  { title: 'Project 3', description: 'Packers-Movers Project', image: i3 },
   { title: 'Project 4', description: 'Pokemon Online store', image: i6 },
   { title: 'Project 5', description: 'Infintiy Travels' , image: i4},
   { title: 'Project 6', description: 'Spiderman Miles Morlaes', image: i5 },]
 
   return (
     <>    
-    <div className='Projects'>
+    <div className='Projects'> 
         
     <div className='card-stack'>
       {cardData.map((card,index)=> (
