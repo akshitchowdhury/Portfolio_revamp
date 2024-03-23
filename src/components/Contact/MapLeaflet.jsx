@@ -38,7 +38,7 @@ const MapLeaflet = () => {
   };
 
   return (
-    <div className="map-box w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto md:mt-6">
+    <div className="map-box  mx-auto md:mt-6" style={{width: '300px'}}>
       <MapContainer center={fixedLocation} zoom={13} className=" w-full h-96 md:h-full" >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

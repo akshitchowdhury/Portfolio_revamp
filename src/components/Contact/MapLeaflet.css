@@ -11,6 +11,24 @@
     
   }
 
+  @media (max-width: 661px) {
+    .map-box {
+        margin-left: 5%;
+        height: 500px;
+        width: auto;
+        /* border: 3pt solid red; */
+        
+    }
+  
+    .map-box .main-map{
+      width: 500px;
+      height: 100%;
+    }
+  }
+  /* 
+
+
+
 /*  
   w-full lg:w-3/4 px-4 lg:p-7 lg:h-96 rounded-lg shadow-2xl bg-white rounded-lg shadow-2xl bg-white */
 

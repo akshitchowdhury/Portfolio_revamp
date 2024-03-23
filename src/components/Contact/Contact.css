@@ -10,13 +10,13 @@
     height: 30rem;
     border-radius: 4%;
     margin-bottom: 3px;
-    box-shadow: 3px  5px 15px #18ee5f;
+    /* box-shadow: 3px  5px 3px #18ee5f; */
 
 
 /* 
     background-color: #191414;; */
 
-    background-image: linear-gradient(to left, #18ee5f, #191414 );   
+    background-image: linear-gradient(to left, #18ee5f, #131212 );   
 
 }
 
@@ -135,4 +135,45 @@ textarea{
 .enter-phone:hover{
     transform: scale(1.10) translateX(3rem);
     background-color: rgb(209, 212, 14);
+}
+
+@media only screen and (max-width: 600px) {
+    .contactContent {
+        flex-direction: column;
+    }
+}
+
+/* For mobile phones (600px and below) */
+@media only screen and (max-width: 600px) {
+    .contactContent {
+        flex-direction: column;
+    }
+
+    .map-box{
+         margin-top: -30rem;   
+        width: 500px;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    .connect-container{
+        height: max-content;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .contactStuff {
+        flex-direction: column;
+    }
+
+    .map-box{
+
+        width: 160px;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+    }
 }
