@@ -137,9 +137,32 @@ textarea{
     background-color: rgb(209, 212, 14);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
+
+    .connect-container{
+        border-radius: 0%;
+        width: auto;
+
+        
+    }
+
     .contactContent {
         flex-direction: column;
+    }
+
+    .map-box{
+         margin-top: -30rem;   
+        width: 500px;
+        height: 500px;
+    }
+    .form{
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    .connect-container{
+        height: 68rem;
     }
 }
 
@@ -160,20 +183,26 @@ textarea{
     }
 
     .connect-container{
-        height: max-content;
+        height: 68rem;
     }
 }
+
 @media only screen and (max-width: 540px) {
-    .contactStuff {
+    .contactContent {
         flex-direction: column;
     }
 
     .map-box{
-
-        width: 160px;
+         margin-top: -30rem;   
+        width: 500px;
         height: 500px;
     }
     .form{
         width: 100%;
+        margin-top: 50%;
+    }
+
+    .connect-container{
+        height: 68rem;
     }
 }
