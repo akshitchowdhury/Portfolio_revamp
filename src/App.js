@@ -9,6 +9,7 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import ContactComponent from './components/Contact/ContactComponent';
+import SocialIcons from './components/Social Icons/SocialIcons';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 <Router>
     <div className="semiMain">
 
-    
+    <SocialIcons/>
    
     
       
