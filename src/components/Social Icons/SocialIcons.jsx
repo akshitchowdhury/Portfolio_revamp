@@ -15,7 +15,7 @@ const SocialIcons = () => {
     };
   
     return ( <>
-      <div className="discountButton  top-0 w-12 h-12  bg-amber-800 shadow-md rounded-full">
+      <div className="discountButton  top-0 w-12 h-12  bg-emerald-300 ease-in duration-300 hover:bg-pink-400 shadow-md rounded-full">
         <button
           className={`w-12 h-12 bg-${isOpen ? 'blue' : 'green'}-500 text-white rounded-full transition duration-300 flex items-center justify-center`}
           onClick={toggleAccordion}
