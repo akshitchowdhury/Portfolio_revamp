@@ -19,7 +19,7 @@
  
     /* background-color: #097978;     */
  
-    background-image: linear-gradient(to left, #b4b10f, #070707 );   
+    background-image: linear-gradient(to left, #0fb48b, #070707 );   
 
 
     background-repeat: no-repeat;
@@ -68,3 +68,12 @@
     color: rgb(228, 143, 32);
     font-size: 1.7rem;
   }
+
+  .dosis-paraText {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: aquamarine;
+    font-style: normal;
+    font-size: 1.7rem;
+}
