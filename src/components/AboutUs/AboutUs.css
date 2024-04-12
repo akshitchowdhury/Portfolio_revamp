@@ -1,23 +1,33 @@
+.about{
+  background-image: linear-gradient(to left, #18ee5f, #131212 );   
+
+  /* border: 3pt solid red; */
+  padding: 3%;
+
+  border-radius: 3%;
+  height: 87vh;
+
+  width: auto;
+  
+}
+
+
 .about div{
 
         width: 100rem;
-        height: 30rem;
+        height: auto;
         max-width: 100%;
 /* 
     background-image: url('../../assets/aboutBG.jfif'); */
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-
-    background-color: #191414	;
+    
 
   }
 
 .para{
     margin-top: 5%;
     margin-left: 50%;
+    height: auto;
     /* border: 3pt solid blue; */
 }
 
@@ -37,6 +47,11 @@
   }
   
 @media only screen and (max-width: 771px) {
+
+  .about{
+    height: auto;
+  }
+
     .para {
       margin-top: 10%;
         margin-left: 0; /* Remove the margin */

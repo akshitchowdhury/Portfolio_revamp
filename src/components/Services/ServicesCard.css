@@ -6,7 +6,8 @@
     
     padding: 10px;
     transition: transform 0.6s ease, background-color 0.9s ease; 
-    box-shadow: 5px 10px  #9a9e9c;
+    box-shadow: 5px 5px  #8836ad;
+    background-color: inherit;
 }
  
 
@@ -14,7 +15,7 @@
     
   transform: scale(1.27);
   /* background-color: rgb(230, 8, 238); */
-  background-image: linear-gradient(rgb(243, 240, 231), #1DB954);
+  background-image: linear-gradient(rgb(243, 240, 231), #ffee00);
   
 }
 .card img{

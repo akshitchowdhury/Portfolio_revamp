@@ -11,7 +11,7 @@
   /* transform: perspective(100px) rotateX(2deg);  */
   /* overflow: hidden; */
 
-  height: 80px;
+  height: auto;
 }
 
 .List{
@@ -34,3 +34,26 @@
 
 
 
+.player{
+    transition: filter 0.3s, transform 0.3s;   
+
+
+}
+
+.player:hover{
+    transform: scale(1.1);
+    
+}
+
+.playButton{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 700px){
+
+    .playButton{
+        margin-left: auto;
+
+        
+    }
+}

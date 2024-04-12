@@ -1,0 +1,9 @@
+.player{
+    color: lightgray;
+    transition: 2s color;
+}
+
+.player:hover{
+
+    color: gold;
+}

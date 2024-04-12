@@ -4,12 +4,12 @@
     
     /* margin-bottom: -5%; */
     
-    padding: 7%;
+    /* padding: 7%;
     
     
-    height: 30rem;
+    
     border-radius: 4%;
-    margin-bottom: 3px;
+    margin-bottom: 3px; */
     
     /* box-shadow: 3px  5px 3px #18ee5f; */
 
@@ -18,7 +18,19 @@
     background-color: #191414;; */
 
     background-image: linear-gradient(to left, #18ee5f, #131212 );   
-
+    
+        background-image: linear-gradient(to left, #18ee5f, #131212 );   
+      
+        /* border: 3pt solid red; */
+        padding: 3%;
+      
+        border-radius: 3%;
+        height: 87vh;
+      
+        width: auto;
+        
+      
+      
 }
 
 .contactStuff{
@@ -154,8 +166,8 @@ textarea{
 
     .map-box{
          margin-top: -30rem;   
-        width: 500px;
-        height: 500px;
+        width: auto;
+        height: auto;
     }
     .form{
         width: 100%;
@@ -175,8 +187,8 @@ textarea{
 
     .map-box{
          margin-top: -30rem;   
-        width: 500px;
-        height: 500px;
+        width: auto;
+        height: auto;
     }
     .form{
         width: 100%;
@@ -195,8 +207,8 @@ textarea{
 
     .map-box{
          margin-top: -30rem;   
-        width: 500px;
-        height: 500px;
+        width: auto;
+        height: auto;
     }
     .form{
         width: 100%;

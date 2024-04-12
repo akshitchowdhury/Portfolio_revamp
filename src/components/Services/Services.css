@@ -1,6 +1,53 @@
-.services{
+.Services{
 
-    background-color: #191414;
-    width: 100%;
-    height: 100vh;
+    /* background-color: #191414; */
+    background-image: linear-gradient(to left, #b118ee, #131212 );   
+  
+    /* border: 3pt solid red; */
+    padding: 2%;
+  
+    border-radius: 3%;
+    height: 87vh;
+  
+    width: auto;
+  }
+  
+  .service-stack {
+    margin-left: 10%;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+      
+     
+      
+    }
+
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
+    .service-stack {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+    }
 }
+    
+    .card {
+      flex: 0 0 calc(33.333% - 2rem); /* Adjust the percentage as needed */
+      margin-bottom: 2rem; /* Adjust margin between cards */
+    }
+    
+    @media (max-width: 768px) {
+  
+      .Projects{
+        height: auto;
+      }
+  
+      .card-stack {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 15%;
+        
+      }
+    }
+    

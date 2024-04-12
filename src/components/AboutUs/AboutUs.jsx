@@ -1,18 +1,17 @@
 import React from 'react'
 import './AboutUs.css'
 import Nav from '../Nav/Nav'
-
+import profile from '../../assets/aboutBG.jpg'
 const AboutUs = () => {
   return (
     <>
 
     <div className='about'>
     {/* <Nav/> */}
-    <div >
-  <div className='blocks flex flex-row w-full md:w-16 lg:w-96 xl:w-2/5'>
-    <h1 className='text-lg text-white font-bold text-center md:text-center'>About me</h1>
-    <p className='para w-full md:w-1/2  text-xs md:text-lg lg:text-lg xl:text-lg text-white font-bold  '>I'm a passionate MERN developer with an insatiable curiosity for building and experimenting with new technologies. From crafting sleek front-end interfaces to architecting robust back-end systems, I thrive on the full-stack journey. Self-taught and proud of it, I embrace programming challenges with a problem-solving mindset, constantly pushing myself to learn and adapt on the fly. Beyond the realms of web development, I harbor a deep fascination for emerging tech realms such as machine learning, app development, and game development. During my downtime, you'll likely find me immersed in the world of game design, turning ideas into interactive experiences. For me, coding isn't just a profession; it's a journey of perpetual innovation and endless possibilities.</p>
-  </div>
+    <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start">
+  <p className="paraText bubblegum-sans-regular md:ml-4 mb-4 md:mb-0" style={{ marginRight: '4%' }}>
+  Welcome to my digital sanctuary! I'm Pratikshit Chowdhury, your guide through this captivating space. If you've found yourself here after clicking on my portfolio link, consider yourself among the cultured few. Explore with curiosity, for within these digital walls lies a tapestry of creativity waiting to be unraveled. </p>
+  <img src={profile} alt="placeholder" className="eventImg md:w-1/2 max-h-full" style={{ height: 'auto', borderRadius: '5%' }} />
 </div>
     </div>
     </>
