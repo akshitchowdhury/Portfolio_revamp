@@ -14,11 +14,11 @@ import SocialIcons from './components/Social Icons/SocialIcons';
 function App() {
   return (
     <div className="App overflow-x-hidden" >
-
+    
+    <SocialIcons/>
 <Router>
     <div className="semiMain">
 
-    <SocialIcons/>
    
     
       
