@@ -7,7 +7,7 @@ const ServicesCards = ({cardData}) => {
 
   return (
     <>
-        <img className="card rounded-t-lg w-full  max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" src={cardData.image} alt="card1" />
+        <img className="Servicecard rounded-t-lg w-full  max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" src={cardData.image} alt="card1" />
       
   
     

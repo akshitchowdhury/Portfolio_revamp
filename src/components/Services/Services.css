@@ -7,7 +7,7 @@
     padding: 2%;
   
     border-radius: 3%;
-    height: auto;
+    height: 87vh;
   
     width: auto;
   }
@@ -19,19 +19,22 @@
     grid-row: auto auto;
     grid-column-gap: 100px;
     grid-row-gap: 20px;
-      
-     
-      
+        
     }
 
 /* Media query for small screens */
 @media screen and (max-width: 767px) {
+
+  .Services{
+    height: auto;
+  }
+
     .service-stack {
-        grid-template-columns: 1fr; /* Single column layout for small screens */
+        grid-template-columns: 2fr; /* Single column layout for small screens */
     }
 }
     
-    .card {
+    .Servicecard {
       flex: 0 0 calc(33.333% - 2rem); /* Adjust the percentage as needed */
       margin-bottom: 2rem; /* Adjust margin between cards */
     }

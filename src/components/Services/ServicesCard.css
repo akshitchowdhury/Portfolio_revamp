@@ -1,6 +1,6 @@
 
 
-.card{
+.Servicecard{
     display: flex;
     flex-direction: row;
     width: auto;
@@ -13,14 +13,14 @@
 }
  
 
-.card:hover{
+.Servicecard:hover{
     
   transform: scale(1.27);
   /* background-color: rgb(230, 8, 238); */
-  background-image: linear-gradient(rgb(243, 240, 231), #ffee00);
+  background-image: linear-gradient(rgb(243, 240, 231), #c300ff);
   
 }
-.card img{
+.Servicecard img{
 
     height: 20vh;
 
