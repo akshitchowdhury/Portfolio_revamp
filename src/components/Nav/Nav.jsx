@@ -2,11 +2,21 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/1.png";
 import "./Nav.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBackward, faBriefcase, faCode, faForward, faGear, faGears, faHome, faPerson, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBackward,
+  faBriefcase,
+  faCode,
+  faForward,
+  faGear,
+  faGears,
+  faHome,
+  faPerson,
+  faPlay,
+} from "@fortawesome/free-solid-svg-icons";
 import { faAddressBook } from "@fortawesome/free-regular-svg-icons";
 import PlayKeys from "./PlayKeys";
-import './PlayKeys.css'
+import "./PlayKeys.css";
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
@@ -55,15 +65,8 @@ function Navbar() {
             DevAshura
           </span>
         </a>
-        {/* <div className="playButton flex items-center justify-center space-x-8 mt-4 md:mt-0 dark:border-gray-700">
-      <FontAwesomeIcon icon={faBackward} size="lg" className="player" style={{  cursor: 'pointer' }}/>
-      <Link to="/">
-        <FontAwesomeIcon icon={faPlay} size="lg" className="player" style={{  cursor: 'pointer' }}/>
-      </Link>
-      <FontAwesomeIcon icon={faForward} size="lg" className="player" style={{  cursor: 'pointer' }}/>
-    </div> */}
-    <PlayKeys/>
-    
+        <PlayKeys />
+
         <button
           onClick={toggleDropdown}
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -89,30 +92,30 @@ function Navbar() {
             />
           </svg>
         </button>
-       
 
-       
-        <div
-          className={
-            isDropdownOpen
-              ? "absolute top-full left-0 w-full md:block md:w-auto"
+        <div className={
+  isDropdownOpen
+    ? "absolute top-3/4 left-0 w-3/4 md:relative md:top-3/4 md:left-2 md:w-full"
               : "hidden w-full md:block md:w-auto"
           }
           id="navbar-multi-level"
           style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
         >
-          <ul className="List flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100   md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:border-gray-700"
-          
-          >
-            
-          <li> 
+          <ul className="List flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-100  
+           md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:border-gray-700">
+            <li>
               <Link
                 to="/"
                 onClick={resetDropdownPosition}
                 style={{ color: "white" }}
                 className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125"
               >
-                <FontAwesomeIcon icon={faHome} size="lg" className="player" style={{  cursor: 'pointer' }}/>
+                <FontAwesomeIcon
+                  icon={faHome}
+                  size="lg"
+                  className="player"
+                  style={{ cursor: "pointer" }}
+                />
               </Link>
             </li>
             <li>
@@ -122,7 +125,12 @@ function Navbar() {
                 style={{ color: "white" }}
                 className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125"
               >
-                <FontAwesomeIcon icon={faPerson} size="lg" className="player" style={{  cursor: 'pointer' }}/>
+                <FontAwesomeIcon
+                  icon={faPerson}
+                  size="lg"
+                  className="player"
+                  style={{ cursor: "pointer" }}
+                />
               </Link>
             </li>
             <li>
@@ -135,21 +143,30 @@ function Navbar() {
                md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
                transform transition duration-300 ease-in-out hover:scale-125"
               >
-                <FontAwesomeIcon icon={faCode} size="lg" className="player" style={{  cursor: 'pointer' }}/>
+                <FontAwesomeIcon
+                  icon={faCode}
+                  size="lg"
+                  className="player"
+                  style={{ cursor: "pointer" }}
+                />
               </Link>
             </li>
 
-            
-              <li>
-                <Link
-                  to="/services"
-                  onClick={resetDropdownPosition}
-                  className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125"
-                >
-                 <FontAwesomeIcon icon={faGear} size="lg" className="player" style={{  cursor: 'pointer' }}/>
-                </Link>
-              </li>
-            
+            <li>
+              <Link
+                to="/services"
+                onClick={resetDropdownPosition}
+                className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125"
+              >
+                <FontAwesomeIcon
+                  icon={faGear}
+                  size="lg"
+                  className="player"
+                  style={{ cursor: "pointer" }}
+                />
+              </Link>
+            </li>
+
             <li>
               <Link
                 to="/contact"
@@ -157,8 +174,11 @@ function Navbar() {
                 style={{ color: "white" }}
                 className="navbar-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transform transition duration-300 ease-in-out hover:scale-125"
               >
-                <FontAwesomeIcon icon={faAddressBook} size="lg" style={{ color: 'lightgray' }}/>
-
+                <FontAwesomeIcon
+                  icon={faAddressBook}
+                  size="lg"
+                  style={{ color: "lightgray" }}
+                />
               </Link>
             </li>
           </ul>
