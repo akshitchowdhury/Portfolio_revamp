@@ -21,6 +21,8 @@
 
 #navbar-multi-level{
     background-color: inherit;
+
+
 }
 .navbar-link{
     color: white;
@@ -56,4 +58,15 @@
 
         
     }
+
+
+
+}
+@media only screen and (max-width: 763px){
+
+    
+#navbar-multi-level{
+    margin-top: -25%;
+    margin-left: -90%;
+}
 }

@@ -101,7 +101,7 @@ function Navbar() {
           id="navbar-multi-level"
           style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
         >
-          <ul className="List flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-100  
+          <ul className="List flex flex-row font-medium p-4 md:p-0 mt-4 border border-gray-500  
            md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:border-gray-700">
             <li>
               <Link
